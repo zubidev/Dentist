@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Dentist\\": "src/"
+    }
+  },
+  "require": {
+    "psr/log": "^1.1",
+    "squizlabs/php_codesniffer": "*",
+    "ext-tokenizer": "*",
+    "ext-xmlwriter": "*",
+    "ext-simplexml": "*",
+    "phpunit/phpunit": "9.5",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "opsway/psr12-strict-coding-standard": "^0.7.0"
+  }
+}
